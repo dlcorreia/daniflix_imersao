@@ -6,12 +6,12 @@ import { LogoImage, MenuWrapper, ButtonLink} from './style.js';
 
 function Menu () {
     return (
-        <MenuWrapper className="Menu">
+        <MenuWrapper>
             <a href="/">
                 <LogoImage src={Logo} alt="logo Daniflix" />
             </a>
 
-            <ButtonLink as="a" href="/" className="ButtonLink">
+            <ButtonLink as="a" href="/">
                 Novo vídeo
             </ButtonLink>
         </MenuWrapper>
