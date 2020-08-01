@@ -1,7 +1,7 @@
 import React from 'react';
 
-function ButtonLink(props) {
-// props => {className: "", href: ""}
+function Button(props) {
+
 console.log(props);
 
     return (
@@ -12,4 +12,4 @@ console.log(props);
     );
 }
 
-export default ButtonLink;
+export default Button;
