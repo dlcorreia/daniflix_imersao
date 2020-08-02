@@ -26,4 +26,13 @@ body {
 
 a {
   color: inherit;
-} 
+}
+
+#root {
+  /* 
+  A root envolve o body interno, solução diferente da proposta na aula
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; */
+  min-height: calc(100vh - var(--bodypaddingTop));
+}
