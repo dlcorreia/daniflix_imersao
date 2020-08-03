@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const BodyWrapper = styled.body`
+export const BodyWrapper = styled.div`
     --bodyPaddingTop: 94px;
     padding-top: var(--bodyPaddingTop);
     background: #141414;
