@@ -1,6 +1,5 @@
 {
-    "categorias": 
-    [
+    "categorias": [
     {
         "id": 1,
         "nome": "Front End",
@@ -12,6 +11,5 @@
         "nome": "Back End",
         "descricao": "Categoria de vídeos back-end",
         "cor": "#CBD1FF"
-    }
-    ]
+    }]
 }
