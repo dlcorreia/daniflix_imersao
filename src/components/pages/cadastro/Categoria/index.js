@@ -26,10 +26,10 @@ function CadastroCategoria () {
         );
     }
 
-
-    //Comando extraído do package-json para teste: "server": "node ./server.js", "json-server --watch db.json"
     useEffect(() => {
-        const URL = 'http://localhost:8080/categorias/';
+        const URL = window.location.hostname.includes('localhost') ?
+        'http://localhost:8080/categorias/' :
+        'https://daniflix-alura.herokuapp.com/categorias'; 
         fetch(URL)
         .then(async (response) => {
             const resposta = await response.json();
