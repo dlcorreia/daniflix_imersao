@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const BodyWrapper = styled.div`
     --bodyPaddingTop: 94px;
@@ -19,4 +19,7 @@ export const Main = styled.main`
     @media(max-width: 800px) {
         padding: 0;
     }
+    ${({ paddingAll }) => css `
+        padding: ${paddingAll};
+    `}
 `;
